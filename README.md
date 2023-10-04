@@ -3,7 +3,7 @@ Processing scripts used for "Task-based default mode network connectivity predic
 
 MATLAB Script:
 
-**Step1_group_differences_DMN_conn.m**
+**FieldTrip_group_differences_DMN_conn.m**
 - Uses FieldTrip to take imaginary part of coherence output from BESA Connectivity (calculated between nodes of DMN) to calculate group differences (SZ vs. HC) in connectivity via cluster-based nonparametric permutation testing. DMN suppression assessed by examining baseline-adjusted (pre-S1) intra-network DMN coherence following S1.
 
 SPSS Syntax Files:
